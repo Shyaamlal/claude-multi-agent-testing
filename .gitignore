@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local session state — context-specific, not for the repo
+Session State.md
+sessions/
+evidence/
+findings/
+*Test Execution Log*.md
+*Test Report*.md
+
+# Local secrets — never commit
+.env
+*.key
+secrets/
